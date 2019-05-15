@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Upravit">
+    <meta property="og:description" content="Upravit">
+    <meta property="og:image" content="">
+    <meta name="theme-color" content="#CDA955">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="description" content="Upravit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="canonical" href="" />
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#ff0000">
+    <title>Změň title</title>
+    <!--Styly-->
+    <link rel="stylesheet" href="styles/buefy.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!--/Styly-->
+</head>
+
+<body>
+    <div id="app" class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    Nový web
+                </a>
+                <a class="navbar-item">
+                    <b-icon pack="fab" icon="github"></b-icon>
+                </a>
+                <a class="navbar-item">
+                    <b-icon pack="fab" icon="twitter"></b-icon>
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <b-dropdown position="is-bottom-left" aria-role="menu">
+                        <a class="navbar-item" slot="trigger" role="button">
+                            <span>Test</span>
+                            <b-icon icon="menu-down"></b-icon>
+                        </a>
+
+                        <b-dropdown-item aria-role="menu-item">
+                            <p>Všechno jede!</p>
+                            <p>Jdem kódit</p>
+                        </b-dropdown-item>
+                    </b-dropdown>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        Můžeš začít!
+                    </h1>
+                    <h2 class="subtitle">
+                        Postav web!
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!--Scripty-->
+    <!-- Vue.js -->
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <!-- Celé buefy -->
+    <script src="node_modules/buefy/dist/buefy.min.js"></script>
+    <!--
+    Individuální komponenty
+    -----------------------
+    <script src="node_modules/buefy/dist/components/table"></script>
+    <script src="node_modules/buefy/dist/components/input"></script>
+    -->
+    <!--/Scripty-->
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
